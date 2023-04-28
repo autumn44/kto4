@@ -202,13 +202,15 @@ section ul li a span.textbox .cover span.cbg{
     height: 20px;
     background-size: 40px;
     transition: 0.5s;
+    color: #000;
 }
-section li:hover.cbg{
+section ul li:hover a span.textbox .cover span.cbg{
     background-position: right;
 }
 section ul li a span.textbox .cover i{
     font-style: normal;
-    margin-left: 1rem;
+    margin-left: .5rem;
+    font-size: 14px;
 }
 /* FOOTER */
 footer{
@@ -221,8 +223,9 @@ footer ul{
     margin: auto;
     gap: 2rem;
     justify-content: center;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #fff;
     padding-bottom: 40px;
+    color: #fff;
 }
 footer ul li a{
     font-size: 1.1rem;
@@ -232,4 +235,5 @@ footer address{
     /* border-top: 1px solid #333; */
     margin-top: 2rem;
     padding-top: 2rem;
+    color: #fff;
 }
